@@ -35,11 +35,9 @@ function App() {
   }, [])
 
   useEffect(() => {
-
     console.log('autoplay enabled');
   }, [autoPlay])
 
-  console.log(autoPlay)
 
   return (
     <ContentWrapper>
